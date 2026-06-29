@@ -1,0 +1,26 @@
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env/
+.pytest_cache/
+
+# Node
+node_modules/
+dist/
+build/
+.npm
+
+# Databases and heavy assets
+*.db
+*.sqlite3
+model_cache/
+
+# OS generated files
+.DS_Store
+Thumbs.db
