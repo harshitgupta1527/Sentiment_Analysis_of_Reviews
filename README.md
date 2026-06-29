@@ -173,12 +173,7 @@ To deploy the entire system in a production container structure with Nginx rever
    ```
 3. The frontend is accessible on standard HTTP Port `80`, proxying `/api` queries internally to the backend server.
 
----
 
-## License
-Licensed under the [MIT License](LICENSE).
-
----
 
 ## Contributing
 1. Fork this repository.
