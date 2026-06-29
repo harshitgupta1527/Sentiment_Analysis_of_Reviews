@@ -8,7 +8,7 @@ graph TD
     Nginx -->|Static Assets| ReactApp[React 19 SPA Client / Vite]
     Nginx -->|/api Route Proxy| FastAPI[FastAPI Server / Port 8000]
     
-    subgraph Python API Layer
+    subgraph "Python API Layer"
         FastAPI --> Auth[JWT Auth Guard]
         FastAPI --> DbConn[SQLAlchemy ORM]
         FastAPI --> ModelRouter[Inference Manager]
@@ -16,7 +16,7 @@ graph TD
     
     DbConn --> SqlDB[(SQLite / PostgreSQL Database)]
     
-    subgraph AI Engine & Pipeline
+    subgraph "AI Engine & Pipeline"
         ModelRouter --> HF_Model{Transformers Hub}
         HF_Model -->|Active Model| DL_Pipeline[DistilBERT Sentiment & Emotion Model]
         HF_Model -->|In-Process Load fallback| Rule_Pipeline[Statistical Lexicon Scorer]
