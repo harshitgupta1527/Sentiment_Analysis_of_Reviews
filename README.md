@@ -1,4 +1,4 @@
-<img width="423" height="217" alt="image" src="https://github.com/user-attachments/assets/a49befa3-3055-428d-81c5-8d73eab7bab4" /># Sentiment Analysis of Reviews
+# Sentiment Analysis of Reviews
 
 An enterprise-grade, production-ready AI feedback parsing dashboard leveraging Hugging Face Transformers and FastAPI to perform multi-class Sentiment Analysis, ABSA (Aspect-Based Sentiment Analysis), Emotion Detection, Spam/Bot Risk Assessments, and Executive Summarization.
 
